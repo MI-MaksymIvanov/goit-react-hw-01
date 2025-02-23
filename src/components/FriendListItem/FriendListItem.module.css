@@ -1,0 +1,28 @@
+.friendListItem {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.friendImg {
+  margin-bottom: 12px;
+}
+
+.friendName {
+  text-align: center;
+  font-size: 26px;
+  color: #000;
+}
+
+.friendStatus {
+  text-align: center;
+  font-size: 18px;
+}
+
+.friendStatus.isOnline {
+  color: #1fb617;
+}
+
+.friendStatus.isOffline {
+  color: #ee3030;
+}

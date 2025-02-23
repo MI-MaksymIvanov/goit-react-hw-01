@@ -1,0 +1,31 @@
+.table {
+  width: 640px;
+  margin: 0 auto;
+}
+
+.table,
+.tableTh,
+.tableTd {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.tableTh {
+  background-color: #2a2a2a;
+  color: #fff;
+  font-size: 18px;
+}
+
+.tableTd {
+  text-align: center;
+  color: #000;
+  padding: 6px 0;
+}
+
+.tableTd:first-child {
+  text-transform: capitalize;
+}
+
+.tableItem:nth-child(even) {
+  background-color: #d3d3d3;
+}
